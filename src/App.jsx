@@ -8,6 +8,7 @@ function App() {
       <h1>Gabriel Victor</h1>
       <SideBar />
       <MainContent />
+      {/* parou em 42:05 */}
     </div>
   )
 }
