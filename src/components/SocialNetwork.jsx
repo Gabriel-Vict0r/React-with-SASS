@@ -10,8 +10,8 @@ const socialNetworks = [
 function SocialNetwork() {
   return (
     <section id="social-networks">
-      {socialNetworks.map((icon) => (
-        <a href="" className="social-btn" id={icon.name} key={icon.icon}>{icon.icon}</a>
+      {socialNetworks.map((icon, id) => (
+        <a href="" className="social-btn" id={id} key={icon.icon}>{icon.icon}</a>
       ))}
     </section>
   );
