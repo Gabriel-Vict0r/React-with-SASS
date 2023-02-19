@@ -1,5 +1,5 @@
 import { AiFillPhone, AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
-import "../styles/components/Informationcontainer.sass";
+import "../styles/components/informationcontainer.sass";
 function InformationContainer() {
   return (
     <section id="information">
